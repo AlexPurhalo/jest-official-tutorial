@@ -1,6 +1,14 @@
 import React    from 'react'
 import ReactDOM from 'react-dom'
 
-const App = () => <h1>Hello and welcome :)</h1>
+import Link from './src/components/Link'
+
+const App = () => (
+	<div>
+		<Link page="http://www.facebook.com">
+			Facebook
+		</Link>
+	</div>
+)
 
 ReactDOM.render(<App />, document.getElementById('root'))
